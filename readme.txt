@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: ZeroCool51
-Donate link: http://bostjan.gets-it.net/projects/post-reading-time
+Donate link: http://bostjan.gets-it.net/
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 3.4.1
@@ -44,4 +44,4 @@ None at the moment.
 
 == Homepage ==
 
-Visit the [homepage](http://bostjan.gets-it.net/projects/post-reading-time "homepage of post reading time") of the plugin.
+Visit the [homepage](http://wp.bostjan.gets-it.net "homepage of post reading time") of the plugin.

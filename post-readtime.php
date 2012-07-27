@@ -2,7 +2,7 @@
 
 	/* 
 		Plugin Name: Post Reading Time
-		Plugin URI: http://bostjan.gets-it.net/projects/post-reading-time
+		Plugin URI: http://wp.bostjan.gets-it.net
 		Description: A simple wordpress plugin that estimates the time a reader will need to go through the article.
 		Version: 0.1
 		Author: Bostjan Cigan
