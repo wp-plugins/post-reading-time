@@ -39,6 +39,10 @@ None at the moment.
 
 == Changelog ==
 
+= 0.11 =
+
+* Minimal changes, updated the website of the plugin.
+
 = 0.1 =
 * The initial version of the plugin.
 
