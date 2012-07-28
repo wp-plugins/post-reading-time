@@ -4,7 +4,7 @@ Donate link: http://bostjan.gets-it.net/
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 3.4.1
-Stable tag: 0.1
+Stable tag: 0.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,4 +44,4 @@ None at the moment.
 
 == Homepage ==
 
-Visit the [homepage](http://wp.bostjan.gets-it.net "homepage of post reading time") of the plugin.
+Visit the [homepage](http://wpplugz.is-leet.com "homepage of post reading time") of the plugin.
