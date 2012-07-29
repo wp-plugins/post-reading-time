@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: ZeroCool51
-Donate link: http://bostjan.gets-it.net/
+Donate link: http://wpplugz.is-leet.com/
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 3.4.1
