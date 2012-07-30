@@ -4,7 +4,7 @@ Donate link: http://wpplugz.is-leet.com/
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 3.4.1
-Stable tag: 0.11
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ None at the moment.
 2. The admin area of the plugin
 
 == Changelog ==
+
+= 0.2 =
+
+* Some cosmetic surgery in the admin area.
 
 = 0.11 =
 
