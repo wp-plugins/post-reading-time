@@ -4,7 +4,7 @@
 		Plugin Name: Post Reading Time
 		Plugin URI: http://wpplugz.is-leet.com
 		Description: A simple wordpress plugin that estimates the time a reader will need to go through the article.
-		Version: 0.1
+		Version: 0.2
 		Author: Bostjan Cigan
 		Author URI: http://bostjan.gets-it.net
 		License: GPL v2
@@ -59,28 +59,34 @@
 		
 ?>
 
-		<div class="wrap">
-			<h2>Post Reading Time Settings</h2>
-			<p><strong><?php echo $message; ?></strong></p>
-			<form method="post" action="">
-				<p><strong>Words per minute</strong> <br /><input type="text" name="pr_wpm" value="<?php echo $wpm; ?>" /></p>
-				<p><strong>Prefix</strong> <br /><input type="text" name="pr_prefix" value="<?php echo $prefix; ?>" /> (what is written before the time)</p>
-				<p><strong>Suffix</strong> <br /><input type="text" name="pr_suffix" value="<?php echo $suffix; ?>" /> (what is written after the time)</p>
-				<p><strong>Time output</strong> <br /><select id="pr_time" name="pr_time">
+		<div id="icon-options-general" class="icon32"></div><h2>Post Reading Time</h2>
+		<div id="poststuff">
+        	<div class="postbox"><h3>Settings</h3>
+            	<div class="inside less">
+					<p><strong><?php echo $message; ?></strong></p>
+					<form method="post" action="">
+					<p><strong>Words per minute</strong> <br /><input type="text" name="pr_wpm" value="<?php echo $wpm; ?>" /></p>
+					<p><strong>Prefix</strong> <br /><input type="text" name="pr_prefix" value="<?php echo $prefix; ?>" /> (what is written before the time)</p>
+					<p><strong>Suffix</strong> <br /><input type="text" name="pr_suffix" value="<?php echo $suffix; ?>" /> (what is written after the time)</p>
+					<p><strong>Time output</strong> <br /><select id="pr_time" name="pr_time">
 									<option value="1" <?php if($time == "1") { echo 'selected="selected"'; } ?>>Minutes</option>
 									<option value="2" <?php if($time == "2") { echo 'selected="selected"'; } ?>>Minutes and seconds</option>
 								</select>
-				</p>
-				<input type="submit" name="Submit" class="button-primary" value="<?php esc_attr_e('Update options') ?>" />
-			</form>
-			<h3>About</h3>
-			<p>Thank you for using this plugin. That means you wanted to have the same thing on your blog than me, to give your readers an estimate on 
-			how long they need to read your post.<br />An average man reads 250 - 300 words for minute, so you can change the
-			default settings any way you like, the default here is 200 words per minute. That's pretty much it.</p> 
-			<p>You can also visit the <a href="http://wpplugz.is-leet.com">homepage</a> for the latest updates.</p>
-			<p>To use it, add <pre>< ?php post_read_time(); ? ></pre> to your template (where you want to output the 
-			text).</p>
-
+					</p>
+					<input type="submit" name="Submit" class="button-primary" value="<?php esc_attr_e('Update options') ?>" />
+					</form>
+            	</div>
+            </div>
+            <div class="postbox"><h3>About</h3>
+            	<div class="inside less">
+				<p>Thank you for using this plugin. That means you wanted to have the same thing on your blog than me, to give your readers an estimate on 
+				how long they need to read your post.<br />An average man reads 250 - 300 words for minute, so you can change the
+				default settings any way you like, the default here is 200 words per minute. That's pretty much it.</p> 
+				<p>You can also visit the <a href="http://wpplugz.is-leet.com">homepage</a> for the latest updates.</p>
+				<p>To use it, add <pre>< ?php post_read_time(); ? ></pre> to your template (where you want to output the 
+				text).</p>
+                </div>
+			</div>
 		</div>
 
 <?php
