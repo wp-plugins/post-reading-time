@@ -27,7 +27,7 @@ What this plugin offers:
 
 1. Upload the plugin directory to to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place `<?php post_read_time(); ?>` in your templates
+3. Place `<?php post_read_time(); ?>` in your templates or add the widget to your theme
 
 == Frequently Asked Questions ==
 
