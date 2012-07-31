@@ -4,7 +4,7 @@ Donate link: http://wpplugz.is-leet.com/
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 3.4.1
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,8 @@ What this plugin offers:
 
 *   Show the time in minutes or minutes and seconds
 *   Select the prefix and suffix before the time shows
-*   Customize the words per minute number.
+*   Customize the words per minute number
+*	Widget support.
 
 == Installation ==
 
@@ -36,8 +37,14 @@ None at the moment.
 
 1. An example of how the plugin functions and works (left part of screenshot, reading time)
 2. The admin area of the plugin
+3. The widget in action.
 
 == Changelog ==
+
+= 0.3 =
+
+* Added widget support
+* Security update in the admin area (check if user is admin).
 
 = 0.2 =
 
@@ -49,6 +56,11 @@ None at the moment.
 
 = 0.1 =
 * The initial version of the plugin.
+
+== Upgrade Notice ==
+
+= 0.3 =
+There is a slight security issue in the admin area (checking if user is admin), please upgrade.
 
 == Homepage ==
 
