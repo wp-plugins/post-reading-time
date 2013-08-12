@@ -4,7 +4,7 @@ Donate link: http://wpplugz.is-leet.com/
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 3.4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,10 @@ None at the moment.
 3. The widget in action.
 
 == Changelog ==
+
+= 1.1 =
+
+* [Fix] Fixed a feature bug, if showing post read time on main page and using excerpts, the whole post content was not used.
 
 = 1.0 =
 

@@ -4,7 +4,7 @@
 		Plugin Name: Post Reading Time
 		Plugin URI: http://wpplugz.is-leet.com
 		Description: A simple wordpress plugin that estimates the time a reader will need to go through the article.
-		Version: 1.0
+		Version: 1.1
 		Author: Bostjan Cigan
 		Author URI: http://bostjan.gets-it.net
 		License: GPL v2
@@ -106,8 +106,10 @@
 		$prefix = stripslashes(html_entity_decode(get_option('post_readtime_prefix')));
 		$suffix = stripslashes(html_entity_decode(get_option('post_readtime_suffix')));
 		$time = get_option('post_readtime_time');
-	
-		$content = get_the_content();
+
+		$post_id = get_the_ID();
+		
+		$content = apply_filters('the_content', get_post_field('post_content', $post_id));
 		$num_words = str_word_count(strip_tags($content));
 		$minutes = floor($num_words / $words_per_second_option);
 		$seconds = floor($num_words % $words_per_second_option / ($words_per_second_option / 60));
