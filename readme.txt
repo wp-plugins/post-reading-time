@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: ZeroCool51
-Donate link: http://wpplugz.is-leet.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SKMW3BAC8KE52
 Tags: reading plugin, reading time, reading time minutes, average reading time, reading plug, wordpress reading plugin, wordpress reading time plugin, reading time plugin
 Requires at least: 2.0.2
 Tested up to: 4.0
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,10 @@ None at the moment.
 3. The widget in action.
 
 == Changelog ==
+
+= 1.2 =
+
+* [Fix] Small display fix.
 
 = 1.1 =
 

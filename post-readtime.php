@@ -2,9 +2,9 @@
 
 	/* 
 		Plugin Name: Post Reading Time
-		Plugin URI: http://wpplugz.is-leet.com
+		Plugin URI: http://bostjan.gets-it.net/plugins
 		Description: A simple wordpress plugin that estimates the time a reader will need to go through the article.
-		Version: 1.1
+		Version: 1.2
 		Author: Bostjan Cigan
 		Author URI: http://bostjan.gets-it.net
 		License: GPL v2
@@ -86,7 +86,7 @@
 				  <p>Thank you for using this plugin. That means you wanted to have the same thing on your blog than me, to give your readers an estimate on 
 				  how long they need to read your post.<br />An average man reads 250 - 300 words for minute, so you can change the
 				  default settings any way you like, the default here is 200 words per minute. That's pretty much it.</p> 
-				  <p>You can also visit the <a href="http://wpplugz.is-leet.com">homepage</a> for the latest updates.</p>
+				  <p>You can also visit the <a href="http://bostjan.gets-it.net/plugin/post-reading-time">homepage</a> for the latest updates.</p>
 				  <p>To use it, add <pre>< ?php post_read_time(); ? ></pre> to your template (where you want to output the 
 				  text).</p>
 				  </div>
